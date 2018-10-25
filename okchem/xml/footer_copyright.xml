@@ -1,0 +1,36 @@
+<data inherit_id="website.layout" name="Footer Copyright">
+    <xpath expr="//footer" position="inside">
+        <div class="o_footer_copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-muted text-center">
+                        <span>© 2016-2018 okchem.com. All Rights Reserved.</span>
+                    </div>
+                    <p class="col-lg-12 text-muted text-center">
+                        <a t-att-href="website.social_facebook" class="btn btn-sm btn-link">
+                            <i class="fa fa-2x fa-facebook-square"/>
+                        </a>
+                        <a t-att-href="website.social_twitter" class="btn btn-sm btn-link">
+                            <i class="fa fa-2x fa-twitter"/>
+                        </a>
+                        <a t-att-href="website.social_linkedin" class="btn btn-sm btn-link">
+                            <i class="fa fa-2x fa-linkedin"/>
+                        </a>
+                        <a t-att-href="website.social_youtube" class="btn btn-sm btn-link">
+                            <i class="fa fa-2x fa-youtube-play"/>
+                        </a>
+                        <a t-att-href="website.social_googleplus" class="btn btn-sm btn-link" rel="publisher">
+                            <i class="fa fa-2x fa-google-plus-square"/>
+                        </a>
+                        <a t-att-href="website.social_github" class="btn btn-sm btn-link">
+                            <i class="fa fa-2x fa-github"/>
+                        </a>
+                        <a t-att-href="website.social_instagram" class="btn btn-sm btn-link">
+                            <i class="fa fa-2x fa-instagram"/>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </xpath>
+</data>

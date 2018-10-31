@@ -40,7 +40,12 @@ $-font-numbers: (
     @if ($o-theme-navbar-font-number != $o-theme-font-number) {
         font-family: nth($o-theme-fonts, $o-theme-navbar-font-number);
     }
-
+    .nav>.nav-item:nth-child(3)>ul>li:first-child {
+        background-color: red;
+    }
+    .nav>.nav-item:nth-child(4)>ul>li:first-child {
+        background-color: blue;
+    }
     .nav-item {
         transition: opacity 1000ms ease 0s;
     }

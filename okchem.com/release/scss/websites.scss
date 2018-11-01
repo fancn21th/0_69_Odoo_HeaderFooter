@@ -76,6 +76,12 @@ $-font-numbers: (
         // to be at the same place of the dropzone at the top of the #footer element
         border-top: 1px solid transparent;
 
+        @include media-breakpoint-down(md) {
+            .container {
+                display: none;
+            }
+        }
+
         ul {
           text-align: center;
           list-style: none;

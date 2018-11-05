@@ -76,7 +76,7 @@ $-font-numbers: (
         // to be at the same place of the dropzone at the top of the #footer element
         border-top: 1px solid transparent;
 
-        @include media-breakpoint-down(md) {
+        @include media-breakpoint-down(sm) {
             .container {
                 display: none;
             }
@@ -1064,6 +1064,11 @@ table.table_desc tr td {
             > div {
                 margin: auto 0;
             }
+        }
+    }
+    @include media-breakpoint-down(xs) {
+        .row>div>span {
+            display: block;
         }
     }
 }

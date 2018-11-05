@@ -1,0 +1,37 @@
+<data inherit_id="website.layout" name="Footer">
+    <xpath expr="//div[@id='footer']" position="replace">
+        <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+            <section class="s_text_block pt16">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <ul>
+                                <li>
+                                    <a href="https://www.okchem.com/companyinfo/aboutus">About OKCHEM</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.okchem.com/companyinfo/termsofservice">Terms of Service</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.okchem.com/companyinfo/privacypolicy">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.okchem.com/companyinfo/buyersguide">Buyer's Guide</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.okchem.com/companyinfo/sellersguide">Supplier's Guide</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.okchem.com/companyinfo/contactus">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.okchem.cn">中国站</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </xpath>
+</data>
